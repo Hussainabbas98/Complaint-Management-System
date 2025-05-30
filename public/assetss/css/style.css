@@ -1,0 +1,12 @@
+.bg-gray-100{
+  /* width: 100%;
+  height: 100%;
+  background: repeating-radial-gradient(circle, #000, #000 5px, transparent 6px);
+  background-size: 30px 30px; */
+
+    width: 100%;
+  height: 100%;
+  background-image: repeating-radial-gradient(  #0c0a0a 80%,#2f312f 90%,#3f4549 90%);
+  background-size: 65px 65px;
+}
+
