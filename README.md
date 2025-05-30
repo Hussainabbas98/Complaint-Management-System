@@ -64,3 +64,79 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+# Complaint-Management-System
+A simple and user-friendly Complaint Management System built with Laravel. This system allows users to submit complaints and enables administrators to view, update, and manage complaint statuses efficiently through a dedicated dashboard.
+📌 Features
+Public complaint submission form with unique Complaint ID generation.
+
+Interactive Admin Dashboard with:
+
+Complaint status summary (New, Pending, Approved).
+
+Search complaints by Complaint ID.
+
+Update status and add admin comments via Bootstrap modal.
+
+Laravel pagination with Bootstrap 5 styling.
+
+Responsive and clean UI using Tailwind CSS + Bootstrap 5.
+
+Validation and error handling.
+
+📸 Screenshots
+You can add screenshots of your dashboard, modal, and complaint form here.
+
+🛠️ Installation
+bash
+Copy
+Edit
+# Clone the repository
+git clone https://github.com/your-username/complaint-management.git
+cd complaint-management
+
+# Install dependencies
+composer install
+
+# Copy and set environment
+cp .env.example .env
+php artisan key:generate
+
+# Set database credentials in .env file
+DB_DATABASE=your_db_name
+DB_USERNAME=your_username
+DB_PASSWORD=your_password
+
+# Run migrations
+php artisan migrate
+
+# Start local server
+php artisan serve
+🔐 Admin Login
+Dashboard at /admin
+
+You can customize roles and routes as needed.
+
+🔍 Search Feature
+Search complaints by Complaint ID using the search input on the admin dashboard.
+
+📁 File Structure Highlights
+app/Http/Controllers/ComplaintController.php – Public complaint handling.
+
+resources/views/admin/dashboard.blade.php – Admin UI (tailwind + bootstrap).
+
+routes/web.php – Route definitions.
+
+📦 Technologies Used
+Laravel 10
+
+PHP 8+
+
+Bootstrap 5
+
+Tailwind CSS
+
+MySQL
+
+Laravel Breeze (optional)
